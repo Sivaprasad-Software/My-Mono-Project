@@ -16,7 +16,7 @@
     - name: getting the code into the serever
       git:
         repo: "https://github.com/Sivaprasad-Software/My-Mono-Project.git"
-        dest: "/var/www/html/"
+        dest: /var/www/html/
         version: "frontend"
 ...
 
