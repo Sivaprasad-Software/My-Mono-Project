@@ -13,7 +13,7 @@
       yum: name=httpd state=present
     - name: restarting the httpd
       service: name=httpd state=restarted
-    - name: getting the code into the serever
+    - name: getting the code into the server
       git:
         repo: "https://github.com/Sivaprasad-Software/My-Mono-Project.git"
         dest: /var/www/html/
